@@ -4,6 +4,7 @@
 
 ### Home page
     it show the movies list (click on og it shows all details of that upcoming movie)
+    ![image](https://github.com/bhimeshpeddireddy/movie-search-list-webpage/assets/129535473/8ebd8982-53b0-4fb4-8ee3-4e25e168961e)
 
 
 ### My  lists
