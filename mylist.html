@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Lists</title>
+    <link rel="stylesheet" href="mylist.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>My Movie Lists</h1>
+        <div id="list-form">
+            <button type="submit"><a href="./index.html">Home</a></button>
+            <button type="submit"><a href="./search.html">Search</a></button>
+            <input type="text" id="list-name" placeholder="Enter list name" />
+            <label>
+                <input type="checkbox" id="list-public" />
+                Public
+            </label>
+            <button onclick="createList()">Create List</button>
+        </div>
+        <div id="lists-container">
+            <!-- Lists will be displayed here -->
+        </div>
+    </div>
+
+    <script src="mylist.js"></script>
+</body>
+</html>
